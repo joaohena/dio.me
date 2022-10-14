@@ -19,7 +19,7 @@ print("""
     ---------------------------------------------------
 """)
 
-consumo = 12
+CONSUMO = 12
 
 # ENTRADA DAS INFORMAÇÕES COM TRATAMENTO
 while True:
@@ -50,6 +50,6 @@ while True:
 
 #CALCULO DA QUANTIDADE EM LITROS
 
-litros = (n_tempo_gasto_viagem * n_velocidade_media) / consumo
+litros = (n_tempo_gasto_viagem * n_velocidade_media) / CONSUMO
 
 print(f"A quantidade de litros necessária para realizar a viagem é: {litros:.3f}")
